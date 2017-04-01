@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<body class="animated fadeIn">
+  <header class="w3-card">
+    <a href="/fourrd/dica"><button class="fixedbutton total2">Clique para usar Dica. Restam: {{question.chances}}</button></a>
+  </header>
+<div class="w3-container">
+<div class="w3-cell-row">
+  <div class="w3-cell">
+  </div>
+  <div class="w3-cell w3-container">
+    <h1 class="inicial">Problema 04</h1>
+    <hr>
+    <p class="subs">Vá até o lavabo e procure por pistas. </p>
+    {% if message %}
+      <p class="subs">{{message}}</p>
+    {% else %}
+      <p class="subs">{{message}}</p>
+    {% endif %}
+      <footer>
+        <center><span style="display: inline;">
+          <a href='/fiverd'><button class="total">A</button></a>
+          <a href='/fourrd'><button class="total">B</button></a>
+          <a href='/fourrd'><button class="total">C</button></a>
+          <a href='/fourrd'><button class="total">D</button></a>
+          <a href='/fourrd'><button class="total">E</button></a>
+          <a href='/fourrd'><button class="total">F</button></a>
+          <a href='/fourrd'><button class="total">G</button></a>
+          <a href='/fourrd'><button class="total">H</button></a>
+          <a href='/fourrd'><button class="total">I</button></a>
+          <a href='/fourrd'><button class="total">J</button></a>
+          <a href='/fourrd'><button class="total">K</button></a>
+          <a href='/fourrd'><button class="total">L</button></a>
+          <a href='/fourrd'><button class="total">M</button></a>
+          <a href='/fourrd'><button class="total">N</button></a>
+          <a href='/fourrd'><button class="total">O</button></a>
+          <a href='/fourrd'><button class="total">P</button></a>
+          <a href='/fourrd'><button class="total">Q</button></a>
+          <a href='/fourrd'><button class="total">R</button></a>
+          <a href='/fourrd'><button class="total">S</button></a>
+          <a href='/fourrd'><button class="total">T</button></a>
+          <a href='/fourrd'><button class="total">U</button></a>
+          <a href='/fourrd'><button class="total">V</button></a>
+          <a href='/fourrd'><button class="total">W</button></a>
+          <a href='/fourrd'><button class="total">X</button></a>
+          <a href='/fourrd'><button class="total">Y</button></a>
+          <a href='/fourrd'><button class="total">Z</button></a>
+      </span></center>
+      </footer>
+  </div>
+</div>
+</div>
+
+
+</body>
+
+<style>
+.total2 {
+  background-color: #2d8659; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: 2px 2px black;
+  width: 100%;
+}
+.fixedbutton {
+    position: fixed;
+}
+.total {
+  background-color: #2d8659; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: 2px 2px black;
+}
+.inicial {
+  padding-top: 50px;
+  font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+   font-weight: normal;
+          font-size: 2.20em;
+   letter-spacing: .2em;
+   line-height: 1.1em;
+   margin:0px;
+   text-align: center;
+   text-transform: uppercase;
+   color: white;
+   text-shadow: 2px 2px black;
+}
+  .subs {
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px black;
+  }
+  .subs2 {
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 11px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    text-shadow: 2px 2px white;
+  }
+body  {
+    background-color: black;
+    opacity: 3.9;
+    background-image: url("http://www.iclarified.com/images/news/43810/196661/196661.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    z-index: -1;
+}
+</style>
